@@ -9,3 +9,4 @@ RUN set -x \
     ttf-freefont \
     chromium \
     git \
+    && git --version && npm --version && node --version
