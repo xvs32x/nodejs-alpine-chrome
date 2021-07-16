@@ -9,7 +9,5 @@ RUN set -x \
     ttf-freefont \
     chromium \
     git \
-    docker \
-    openrc \
-    && rc-update add docker boot \
+    docker-cli \
     && git --version && npm --version && node --version && docker --version
